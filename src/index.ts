@@ -1,8 +1,8 @@
 import { Calculate } from './ts/Calculate';
-const img = require('./assets/img/welcome-slider/1.jpg');
+//const img = require('./assets/img/welcome-slider/1.jpg');
 
 const el = document.createElement('img');
-el.src = img;
+//el.src = img;
 
 // import './sass/style.scss';
 
