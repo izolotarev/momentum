@@ -1,0 +1,21 @@
+.some-section {
+  width: 20vw;
+  height: 20vh;
+  background-color: $color-dark-red;
+}
+
+.icon-social {
+  display: inline-block;
+  cursor: pointer;
+  width: 48px;
+  height: 48px;
+  @extend %transition;
+
+  &_youtube {
+    background-image: url("../assets/svg/youtube.svg");
+
+    &:hover {
+      background-image: url("../assets/svg/youtube-hover.svg");
+    }
+  }
+}

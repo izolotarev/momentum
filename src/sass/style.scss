@@ -1,0 +1,11 @@
+@import "base/normalize/import-now";
+@import "abstract/constants";
+@import "abstract/mixins";
+@import "abstract/placeholders";
+@import "base/base";
+@import "base/typography";
+@import "components/someSection.scss";
+
+// body {
+//   background-image: url("../assets/img/welcome-slider/1.jpg");
+// }
